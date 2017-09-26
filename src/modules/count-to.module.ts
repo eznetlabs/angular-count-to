@@ -1,26 +1,27 @@
+import { CountToDirective } from './../directives/count-to.directive';
 import { NgModule, ModuleWithProviders } from '@angular/core';
-
-import { SumService } from '../services/sum.service';
 
 @NgModule({
     declarations: [
+        CountToDirective
         // Pipes.
         // Directives.
     ],
     exports: [
+        CountToDirective
         // Pipes.
         // Directives.
     ]
 })
-export class ArithmeticModule {
+export class CountToModule {
 
     /**
      * Use in AppModule: new instance of SumService.
      */
     public static forRoot(): ModuleWithProviders {
         return {
-            ngModule: ArithmeticModule,
-            providers: [SumService]
+            ngModule: CountToModule,
+            providers: []
         };
     }
 
@@ -29,8 +30,8 @@ export class ArithmeticModule {
      */
     public static forChild(): ModuleWithProviders {
         return {
-            ngModule: ArithmeticModule,
-            providers: [SumService]
+            ngModule: CountToModule,
+            providers: []
         };
     }
 
