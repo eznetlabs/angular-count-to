@@ -1,7 +1,7 @@
 {
     "name": "angular-count-to",
     "version": "0.0.1",
-    "description": "Build an Angular library compatible with AoT compilation and Tree shaking",
+    "description": "A simple Count-to directive built in Typescript",
     "main": "./bundles/angular-count-to.umd.js",
     "module": "./modules/angular-count-to.es5.js",
     "es2015": "./modules/angular-count-to.js",
@@ -14,15 +14,15 @@
         "compodoc-serve": "compodoc -s"
     },
     "typings": "./angular-count-to.d.ts",
-    "author": "",
+    "author": "Austin Stewart",
     "repository": {
         "type": "git",
-        "url": "https://github.com/robisim74/angular-count-to.git"
+        "url": "https://github.com/austinthedeveloper/ALS-angular-count-to.git"
     },
     "bugs": {
-        "url": "https://github.com/robisim74/angular-count-to/issues"
+        "url": "https://github.com/austinthedeveloper/ALS-angular-count-to/issues"
     },
-    "homepage": "https://github.com/robisim74/angular-count-to",
+    "homepage": "https://github.com/austinthedeveloper/ALS-angular-count-to",
     "keywords": [
         "angular",
         "javascript",
