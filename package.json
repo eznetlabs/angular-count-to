@@ -17,12 +17,12 @@
     "author": "Austin Stewart",
     "repository": {
         "type": "git",
-        "url": "https://github.com/austinthedeveloper/ALS-angular-count-to.git"
+        "url": "https://github.com/austinthedeveloper/angular-count-to.git"
     },
     "bugs": {
-        "url": "https://github.com/austinthedeveloper/ALS-angular-count-to/issues"
+        "url": "https://github.com/austinthedeveloper/angular-count-to/issues"
     },
-    "homepage": "https://github.com/austinthedeveloper/ALS-angular-count-to",
+    "homepage": "https://github.com/austinthedeveloper/angular-count-to",
     "keywords": [
         "angular",
         "javascript",

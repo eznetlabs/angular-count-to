@@ -16,7 +16,7 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 export class CountToModule {
 
     /**
-     * Use in AppModule: new instance of SumService.
+     * Use in AppModule
      */
     public static forRoot(): ModuleWithProviders {
         return {
@@ -26,7 +26,7 @@ export class CountToModule {
     }
 
     /**
-     * Use in features modules with lazy loading: new instance of SumService.
+     * Use in features modules with lazy loading
      */
     public static forChild(): ModuleWithProviders {
         return {
