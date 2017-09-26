@@ -1,6 +1,6 @@
 {
     "name": "angular-count-to",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "A simple Count-to directive built in Typescript",
     "main": "./bundles/angular-count-to.umd.js",
     "module": "./modules/angular-count-to.es5.js",
