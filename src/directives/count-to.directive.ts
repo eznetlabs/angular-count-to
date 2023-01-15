@@ -4,19 +4,16 @@ import { Directive, OnChanges, ElementRef, Input, OnInit } from '@angular/core';
   selector: '[CountTo]'
 })
 export class CountToDirective implements OnChanges, OnInit {
-  @Input()
-  CountTo: number;
-  @Input()
-  from = 0;
-  @Input()
-  duration = 4;
+  @Input() CountTo: number = 0;
+  @Input() from = 0;
+  @Input() duration = 4;
 
   e = this.el.nativeElement;
-  num: number;
+  num: number = 0;
   refreshInterval = 30;
-  steps: number;
+  steps: number = 0;
   step = 0;
-  increment: number;
+  increment: number = 0;
 
   constructor(private el: ElementRef) {
 
@@ -33,9 +30,9 @@ export class CountToDirective implements OnChanges, OnInit {
   }
 
   calculate() {
-    this.duration = this.duration * 1000;
+    const duration = this.duration * 1000;
 
-    this.steps = Math.ceil(this.duration / this.refreshInterval);
+    this.steps = Math.ceil(duration / this.refreshInterval);
     this.increment = ((this.CountTo - this.from) / this.steps);
     this.num = this.from;
   }
